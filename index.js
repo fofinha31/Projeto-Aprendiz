@@ -1,7 +1,7 @@
 
     // Solicita o nome e a quantidade de experiência (XP) do herói
-    let nomeHeroi = ("Rogue");
-    let xpHeroi = (("Esta no nivel Prata") 4000);
+    let nomeHeroi = "Rogue";
+    let xpHeroi = 4000;
 
     // Utiliza uma estrutura de decisão para determinar o nível do herói
     let nivel;
