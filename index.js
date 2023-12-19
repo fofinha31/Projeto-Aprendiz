@@ -1,30 +1,30 @@
-
-    // Solicita o nome e a quantidade de experiência (XP) do herói
+// Solicita o nome e a quantidade de experiência (XP) do herói
     let nomeHeroi = "Rogue";
-    let xpHeroi = 4000;
+    let xpHeroi = 11000;
 
-    // Utiliza uma estrutura de decisão para determinar o nível do herói
+// Utiliza uma estrutura de decisão para determinar o nível do herói
     let nivel;
 
-    if (xpHeroi < 1000) {
+// o desafio que foi pedido esta errado (Se XP for menor 1000 = ferro)
+esta errado . Eu fiz diferente.
+   
+if (xpHeroi <= 1000) {
         nivel = "Ferro";
-    } else if (xpHeroi >= 1001 && xpHeroi <= 2000) {
+    } else if (xpHeroi <= 2000) {
         nivel = "Bronze";
-    } else if (xpHeroi >= 2001 && xpHeroi <= 5000) {
+    } else if (xpHeroi <= 5000) {
         nivel = "Prata";
-    } else if (xpHeroi >= 6001 && xpHeroi <= 7000) {
+    } else if (xpHeroi <= 7000) {
         nivel = "Ouro";
-    } else if (xpHeroi >= 7001 && xpHeroi <= 8000) {
+    } else if (xpHeroi <= 8000) {
         nivel = "Platina";
-    } else if (xpHeroi >= 8001 && xpHeroi <= 9000) {
+    } else if (xpHeroi <= 9000) {
         nivel = "Ascendente";
-    } else if (xpHeroi >= 9001 && xpHeroi <= 10000) {
+    } else if (xpHeroi <= 10000) {
         nivel = "Imortal";
-    } else if (xpHeroi >= 10001) {
-        nivel = "Radiante";
     } else {
-        nivel = "Nivel Não definido";
-    }
+        nivel = "Radiante";
+ }
 
-    // Exibe a mensagem final
+    // Saida da Estrutura
     console.log(" O Herói " + nomeHeroi + " está no nivel " + nivel )
